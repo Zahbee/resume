@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahbee Shahid - Web Resume</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfdfd; /* Cream */
+            color: #333; /* Dark Gray */
+        }
+
+        nav {
+            background-color: #001F3F; /* Dark Blue */
+            color: #fff; /* White */
+        }
+
+        nav a {
+            color: #fff; /* White */
+        }
+
+        header {
+            background-color: #001F3F; /* Dark Blue */
+            color: #fff; /* White */
+            text-align: left;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+            line-height: 1.2;
+            margin-bottom: 10px;
+            animation: fadeInLeft 1s ease-in-out;
+        }
+
+        header h2 {
+            margin: 0;
+            font-size: 1.5em;
+            font-weight: normal;
+            animation: fadeInRight 1s ease-in-out;
+        }
+
+        header p {
+            margin: 10px 0;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            display: block;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #ddd; /* Light Gray */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            color: #333; /* Dark Gray */
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        h2 {
+            color: #001F3F; /* Dark Blue */
+        }
+
+        .about-me p {
+            margin: 10px 0;
+        }
+
+        .experience,
+        .education,
+        .skills {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background-color: #001F3F; /* Dark Blue */
+            color: #fff; /* White */
+            text-align: center;
+            padding: 10px 0;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        /* Custom Styles */
+        .sub-heading {
+            color: #001F3F; /* Dark Blue */
+            font-size: large;
+        }
+
+        .animated {
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        .about-mee{
+            color: darkgray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-section">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience-section">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education-section">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills-section">Skills</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>ZAHBEE SHAHID</h1>
+                    <h2 class="about-mee">Front-end Web Designer</h2>
+                    <p class="about-mee">West Bengal, India</p>
+                    <a href="www.linkedin.com/in/zahbee-shahid-5b9108253" target="_blank" class="about-me">LinkedIn</a>
+                    <a href="mailto:zahbeeshahid20208249@gmail.com" class="about-me">Email</a>
+                </div>
+                <div class="col-md-4 text-right">
+                    <img src="pfp.png" alt="Your Picture" class="img-fluid rounded-circle"
+                        style="max-width: 350px; height: auto;">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="animated" id="about-section">
+        <h2>About Me</h2>
+        <p>A young and passionate front-end web designer with expertise in HTML, CSS, and JavaScript. Eager to explore
+            the intersection of technology and creativity, I strive to deliver visually appealing and user-friendly web
+            experiences.</p>
+    </section>
+
+    <section class="animated" id="experience-section">
+        <h2>Work Experience</h2>
+        <div class="experience-item">
+            <div class="sub-heading">Developer Intern</div>
+            <div>
+                <strong>Company:</strong> Pantech Prolabs Pvt. Ltd. (Pantech.ai)<br>
+                <strong>Timeframe:</strong> Jan 2024 - present<br>
+                <strong>Responsibilities:</strong>
+                <ul>
+                    <li>Data Analytics</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="sub-heading">Salesforce Developer Intern</div>
+            <div>
+                <strong>Company:</strong> SmartInternz<br>
+                <strong>Timeframe:</strong> Nov 2023 - Dec 2023<br>
+                <strong>Takeaways:</strong>
+                <ul>
+                    <li>Salesforce Fundamentals</li>
+                    <li>Automation</li>
+                    <li>LWC</li>
+                    <li>Data Management</li>
+                    <li>App logic</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="sub-heading">Public Relations</div>
+            <div>
+                <strong>Company:</strong> Phoenix - The official Tech Club of NSEC<br>
+                <strong>Timeframe:</strong> Mar 2023 - May 2023<br>
+                <strong>Responsibilities:</strong>
+                <ul>
+                    <li>Seeking opportunities for partnerships, sponsorships, and advertising of The grand event, Avenir
+                        '23.</li>
+                    <li>Approaching businesses and companies for sponsorship and reach.</li>
+                    <li>Notifying media sources of updates, events, and key announcements.</li>
+                    <li>Addressing inquiries from the media and other parties and helped in planning the event for effective
+                        execution.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="animated" id="education-section">
+        <h2>Education</h2>
+        <div class="education-item">
+            <strong>Degree Earned:</strong> Xth Standard in Science<br>
+            <strong>Institution:</strong> Agrasain Balika Siksha Sadan, Howrah<br>
+            <strong>Duration:</strong> 2019 - 2020
+
+        </div>
+
+        <div class="education-item">
+            <strong>Degree Earned:</strong> XIIth Standard in Science<br>
+            <strong>Institution:</strong> Agrasain Balika Siksha Sadan, Howrah<br>
+            <strong>Duration:</strong> 2021 - 2022
+
+        </div>
+
+        <div class="education-item">
+            <strong>Degree Earned:</strong> Bachelor of Technology in Information Technology<br>
+            <strong>Institution:</strong> Netaji Subhash Engineering College, New Garia<br>
+            <strong>Duration:</strong> 2022 - 2026 (Expected Graduation)
+            
+        </div>
+    </section>
+
+    <section class="animated" id="skills-section">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Communication</li>
+            <li>Writing</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <footer class="animated" id="contact-section">
+        &copy; 2024 Zahbee Shahid
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
